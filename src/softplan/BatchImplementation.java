@@ -11,11 +11,11 @@ public class BatchImplementation implements Batch {
 
     @Override
     public int[] getFileSizes() {
-        return new int[0];
+        return this.fileSizes;
     }
 
     @Override
     public int getTapeSize() {
-        return 0;
+        return this.tapeSize;
     }
 }
