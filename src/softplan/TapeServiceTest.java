@@ -21,6 +21,6 @@ class TapeServiceTest {
         int tapeSize = 100;
         Batch batch = new BatchImplementation(fileSizes, tapeSize);
         int result = TapeService.getMinimumTapeCount(batch);
-        assertEquals(result, 2);
+        assertEquals(result, 3);
     }
 }
