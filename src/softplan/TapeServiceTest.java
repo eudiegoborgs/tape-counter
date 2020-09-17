@@ -16,6 +16,7 @@ class TapeServiceTest {
         assertEquals(result, 5);
     }
 
+    @Test
     public void case2() throws Exception {
         int[] fileSizes = new int[]{20, 30, 50, 10, 15};
         int tapeSize = 100;
